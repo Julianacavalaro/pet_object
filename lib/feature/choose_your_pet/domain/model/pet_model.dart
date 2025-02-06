@@ -1,9 +1,9 @@
-abstract class animal {
+abstract class Animal {
     int _hapiness = 40;
     int _hunger = 0;
    final String name;
 
-  animal({required this.name});
+  Animal({required this.name});
 
   int getHapiness() => _hapiness;
 

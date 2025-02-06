@@ -14,6 +14,10 @@ abstract class animal {
   void feed(){
     _hunger = _hunger +10;
   }
+
+  void play(){
+    _hapiness += 10;
+  }
    
 
 }
